@@ -1,0 +1,54 @@
+ [
+    {
+        "inputs": [],
+        "name": "getTokens",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+ ]
+
+
+ [
+    {
+        "inputs":
+            [
+              {
+                "name": "_spender",
+                "type": "address"
+              },
+              {
+                "name": "_value",
+                "type": "uint256"
+              }
+            ],
+        "name": "approve",
+        "outputs":
+                [
+                 {
+                   "name": "",
+                   "type": "bool"
+                 }
+                ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+ ]
+
+
+ [
+    {
+        "inputs":
+               [
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                }
+               ],
+        "name": "registerAsStudent",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+ ]
